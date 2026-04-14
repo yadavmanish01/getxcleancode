@@ -1,16 +1,60 @@
-# cleangetxproject
+# Clean GetX Project
 
-A new Flutter project.
+This project is built using GetX and GetCLI, following a clean architecture approach with a strong focus on SOLID principles and maintainable code.
 
-## Getting Started
+The goal is to keep the codebase scalable and easy to understand by separating concerns properly and organizing modules into views, controllers, bindings, and services.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Key Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Clean Architecture (GetCLI-based)
+- Well-structured folder organization  
+- Clear separation of UI, business logic, and data layers  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### SOLID Principles
+- Encourages reusable and testable code  
+- Maintains low coupling and better structure  
+
+### State Management with GetX
+- Uses reactive programming with Obx and controllers  
+- Lightweight and efficient  
+
+### API Service Layer
+- Centralized API handling  
+- Reusable network service classes  
+
+### Exception Handling
+- Handles network and runtime errors properly  
+- Provides meaningful error states  
+
+### Status Handling
+- Custom status handler (Loading, Success, Error)  
+- Helps manage UI states clearly  
+
+### Custom Extensions
+- Utility extensions (e.g., SizedBox spacing)  
+- Reduces repetitive UI code  
+
+### GitHub Actions
+- Basic CI/CD setup  
+- Helps maintain code quality  
+
+---
+
+## Objective
+
+This project demonstrates how to build a production-ready Flutter application using GetX while following clean code practices and a scalable architecture.
+
+---
+
+## Tech Stack
+
+- Flutter  
+- Dart  
+- GetX  
+- GetCLI  
+
+---
+
+## Project Structure
