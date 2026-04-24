@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import '../theme/app_color.dart';
 
 class AppStyle {
-  // 🔹 AppBar Title
+  //  AppBar Title
   static const appbartxt = TextStyle(
     fontSize: 30,
     fontWeight: FontWeight.w700,
     color: Colors.white,
   );
 
-  // 🔹 Buttons
+  //  Buttons
   static const textbtntxt = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w500,
@@ -22,7 +22,7 @@ class AppStyle {
     color: Colors.white,
   );
 
-  // 🔹 Primary Bold Headings
+  //  Primary Bold Headings
   static const headingLarge = TextStyle(
     fontSize: 26,
     fontWeight: FontWeight.bold,
@@ -41,14 +41,14 @@ class AppStyle {
     color: Colors.black,
   );
 
-  // 🔹 Subheadings / Section Titles
+  //  Subheadings / Section Titles
   static const subheading = TextStyle(
     fontSize: 17,
     fontWeight: FontWeight.w500,
     color: AppColor.primary,
   );
 
-  // 🔹 Body / Paragraph Text
+  //  Body / Paragraph Text
   static const bodyLarge = TextStyle(
     fontSize: 17,
     fontWeight: FontWeight.w400,
@@ -67,14 +67,14 @@ class AppStyle {
     color: Colors.black54,
   );
 
-  // 🔹 Labels / Form Field Titles
+  //  Labels / Form Field Titles
   static const label = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w600,
     color: Colors.black,
   );
 
-  // 🔹 Captions / Helper Text
+  //  Captions / Helper Text
   static const caption = TextStyle(
     fontSize: 13,
     color: Colors.grey,
@@ -86,19 +86,19 @@ class AppStyle {
     fontWeight: FontWeight.w500,
   );
 
-  // 🔹 Common Bold Text
+  //  Common Bold Text
   static const commonbold = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.bold,
   );
 
-  // 🔹 Grey Text
+  //  Grey Text
   static const greyText = TextStyle(
     fontSize: 14,
     color: Colors.grey,
   );
 
-  // 🔹 Input Decoration (Common for TextFields)
+  //  Input Decoration (Common for TextFields)
   static InputDecoration inputDecoration({String? hint, IconData? icon}) {
     return InputDecoration(
       hintText: hint,
@@ -119,7 +119,7 @@ class AppStyle {
     );
   }
 
-  // 🔹 Box Shadow
+  //  Box Shadow
   static List<BoxShadow> shadow = [
     BoxShadow(
       color: Colors.black.withOpacity(0.05),
